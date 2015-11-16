@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CCC1C041BEE995D0039A88A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC1C031BEE995D0039A88A /* Model.swift */; };
 		1CE811391BED62E50051D100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE811381BED62E50051D100 /* AppDelegate.swift */; };
 		1CE8113B1BED62E50051D100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8113A1BED62E50051D100 /* ViewController.swift */; };
 		1CE8113E1BED62E50051D100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE8113C1BED62E50051D100 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CCC1C031BEE995D0039A88A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = ../Model.swift; sourceTree = "<group>"; };
 		1CE811351BED62E50051D100 /* tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE811381BED62E50051D100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CE8113A1BED62E50051D100 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		1CE811371BED62E50051D100 /* tip */ = {
 			isa = PBXGroup;
 			children = (
+				1CCC1C031BEE995D0039A88A /* Model.swift */,
 				1CE811381BED62E50051D100 /* AppDelegate.swift */,
 				1CE8113A1BED62E50051D100 /* ViewController.swift */,
 				1CE8113C1BED62E50051D100 /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					1CE811341BED62E50051D100 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 849S946C4Q;
 					};
 					1CE811481BED62E50051D100 = {
 						CreatedOnToolsVersion = 7.1;
@@ -256,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCC1C041BEE995D0039A88A /* Model.swift in Sources */,
 				1CE8113B1BED62E50051D100 /* ViewController.swift in Sources */,
 				1CE811391BED62E50051D100 /* AppDelegate.swift in Sources */,
 			);
@@ -399,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hotmail-cedric.tip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hotmail-cedric.tip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +495,7 @@
 				1CE8115F1BED62E50051D100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CE811601BED62E50051D100 /* Build configuration list for PBXNativeTarget "tipTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +504,7 @@
 				1CE811621BED62E50051D100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CE811631BED62E50051D100 /* Build configuration list for PBXNativeTarget "tipUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				1CE811651BED62E50051D100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
